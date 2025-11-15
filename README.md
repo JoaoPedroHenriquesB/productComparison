@@ -7,7 +7,7 @@
 
 ## 📖 Overview
 
-This project is a web application designed to help users compare product features and prices. The main goal is to centralize information from various sources, enabling users to make better and more informed purchasing decisions.
+This simple project is a web application designed to help users compare product features and prices. The main goal is to centralize information from various sources, enabling users to make better and more informed purchasing decisions.
 
 ---
 
