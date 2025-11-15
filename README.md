@@ -43,7 +43,7 @@ You will need Python 3 and pip installed on your machine.
 
 1.  Clone the repository:
     ```sh
-    git clone https://github.com/your-username/productComparison.git
+    git clone https://github.com/JoaoPedroHenriquesB/productComparison.git
     ```
 2.  Navigate to the project directory:
     ```sh
