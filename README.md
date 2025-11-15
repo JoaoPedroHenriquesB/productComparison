@@ -62,6 +62,7 @@ You will need Python 3 and pip installed on your machine.
 ----
 
 ### Images
+![alt text](compare1.png)
 ![alt text](compare2.png)
 
 ----
