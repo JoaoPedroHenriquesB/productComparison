@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Comparison</title>
+    <link rel="stylesheet" href="../static/style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <form method="post">
+        <h1>Product Comparison</h1>
+        <input
+          name="product_a"
+          class="product"
+          type="text"
+          placeholder="Product A"
+        />
+        <input
+          name="product_b"
+          class="product"
+          type="text"
+          placeholder="Product B"
+        />
+        <br />
+        <input id="comparebtn" type="submit" value="Compare" />
+
+        {% if gemini %}
+        <div id="response">
+          <h2>Comparison between {{ product_a }} and {{ product_b }}</h2>
+          <p>{{ gemini }}</p>
+        </div>
+        {% endif %}
+      </form>
+    </div>
+  </body>
+</html>

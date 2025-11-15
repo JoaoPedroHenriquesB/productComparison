@@ -1,0 +1,70 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  border: 0px solid red;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  background-color: #2a272a;
+}
+
+h1 {
+  color: #2a272a;
+  margin-top: 25px;
+  margin: 30px auto 0px auto;
+}
+
+form {
+  margin: 120px;
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  min-height: 500px;
+  background-color: #677381;
+  gap: 20px;
+  border-radius: 10px;
+}
+
+.product {
+  margin: 0px auto 0px auto;
+  text-align: center;
+  padding: 8px;
+  width: 290px;
+  border-radius: 10px;
+  font-weight: bolder;
+  font-size: large;
+}
+
+#comparebtn {
+  color: #2a272a;
+  font-weight: bolder;
+  font-size: large;
+  max-width: 100px;
+  padding: 8px;
+  margin: 0px 40px 0px auto;
+  border-radius: 10px;
+}
+
+#response {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+}
+
+#response h2 {
+  color: #333;
+  margin-bottom: 15px;
+}
+
+#response p {
+  color: #555;
+  text-align: left;
+  white-space: pre-wrap; 
+}
